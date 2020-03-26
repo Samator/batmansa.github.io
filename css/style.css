@@ -149,9 +149,6 @@ body{
                     display: flex;
                     align-items: center;
                     text-decoration: none;
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: normal;
                     font-size: 16px;
                     line-height: 19px;
                     text-align: right;
@@ -200,13 +197,16 @@ body{
         background-color: #fff;
         color: #000;
         border-radius: 3px;
-        padding: 43px 50px;
+        padding: 3% 4%;
         display: flex;
         justify-content: space-between;
     } 
+        .short_info{
+            margin-right: 3%;
+        }
         .poster{
             display: block;
-            margin-top: -80px;
+            margin-top: -40%;
         }
         .content .button{
             margin-top: 20px;
@@ -238,25 +238,32 @@ body{
         }
 
         .full_info{
-            flex: 0.95;
-        }
+            flex: 0.97;
+        }   
+            .tabs{
+                display: flex;
+                margin-bottom: 3%;
+            }
+            .tabs_content{
+                margin-right: 70px;
+            }   
             .tabs_item{
                 text-decoration: none;
                 color: #000;
                 font-size: 18px;
                 line-height: 21px;
-                margin-right: 40px;
+            }
+            .tabs_item:not(:last-child){
+                margin-right: 4%;
             }
             .tabs_item_active{
                 color: #FF8F27;
             }
+            
         .full_content{
             display: flex;
             justify-content: space-between;
         }
-        .tabs_content{
-            margin-right: 70px;
-        }   
             .text_title{
                 padding-left: 0;
             }
@@ -283,13 +290,18 @@ body{
                 width: 176px;
                 height: 100%;
                 background: rgba(241, 241, 241, 0.5);
-            }
+                border-radius:  5px 0px 0px 5px ;
+                -webkit-border-radius:  5px 0px 0px 5px ;
+                -moz-border-radius:  5px 0px 0px 5px ;
+                -ms-border-radius:  5px 0px 0px 5px ;
+                -o-border-radius:  5px 0px 0px 5px ;
+}
             .subscribe_email input::placeholder {
                 color: #AEAEAE;
                 font-family: 'Roboto', sans-serif;
                 font-size: 14px;
                 line-height: 16px;
-                text-align: center;
+                padding-left: 10px;
             }
             .subscribe_button{
                 border-radius: 5px;
@@ -302,7 +314,5 @@ body{
                 background-repeat: no-repeat;
                 background-color: #FF8F27;
                 cursor: pointer;
-                }               
-            .banner{
-                margin-top: 47px;
-            }
+                border-radius: 0px 5px 5px 0px;
+}               
