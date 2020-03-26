@@ -34,6 +34,9 @@
     }
 }
 @media (max-width: 768px){
+    body{
+        background-size: auto auto;
+    }
     .conteiner{
         max-width: 540px;
     }
@@ -45,6 +48,9 @@
     }
 }
 @media (max-width: 578px){
+    body{
+        background-size: auto auto;
+    }
     .conteiner{
         max-width: 87%;
     }
