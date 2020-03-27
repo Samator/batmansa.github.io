@@ -248,8 +248,12 @@ body{
                 margin-bottom: 3%;
             }
             .tabs_content{
+                display: none;
                 margin-right: 70px;
             }   
+            .visible{
+                display: block;
+            }
             .tabs_item{
                 text-decoration: none;
                 color: #000;
